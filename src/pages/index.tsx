@@ -9,7 +9,7 @@ const Home: NextPage = (): ReactElement => {
     <div className="flex items-center h-screen justify-center text-center">
       <div>
         <h1 className="font-bold text-xl lg:text-7xl">Welcome to the
-          <a href="https://nextjs.org/" target="_blank" rel="noreferrer" className="ml-3 text-blue-600">
+          <a href="https://nextjs.org/" target="_blank" rel="noreferrer" title="Welcome to the Next.JS" aria-label="Welcome to the Next.JS" className="ml-3 text-blue-600">
             Next.JS
           </a>
         </h1>
