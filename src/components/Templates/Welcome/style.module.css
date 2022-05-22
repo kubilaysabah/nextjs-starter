@@ -1,0 +1,11 @@
+.wrapper {
+    @apply flex items-center h-screen justify-center text-center;
+}
+
+.title {
+    @apply font-bold text-xl lg:text-7xl;
+}
+
+.link {
+    @apply ml-3 text-blue-600;
+}

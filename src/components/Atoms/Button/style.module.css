@@ -1,0 +1,19 @@
+.reset {
+    @apply focus:outline-none;
+}
+
+.transitions {
+    @apply transition ease-in duration-300;
+}
+
+.default {
+    @apply border py-2 px-5 rounded text-sm font-semibold;
+}
+
+.primary {
+    @apply reset transitions default border-blue-600 bg-blue-600 text-white hover:border-blue-800 hover:bg-blue-800 hover:text-white;
+}
+
+.secondary {
+    @apply reset transitions default border-orange-600 bg-orange-600 text-white hover:border-orange-800 hover:bg-orange-800 hover:text-white;
+}
